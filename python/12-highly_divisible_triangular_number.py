@@ -8,7 +8,7 @@ def factors(number):
     while i < limit:
         if number % i == 0:
             count = count + 2
-        i = i + 1
+        i += 1
 
     if math.sqrt(number) % 1 == 0:
         count += 1 
