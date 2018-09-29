@@ -1,7 +1,7 @@
 #PE005
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 solution = 0
-highest_number = 18
+highest_number = 20
 
 while True:
     solution += 1
