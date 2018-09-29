@@ -1,4 +1,5 @@
 #PE003
+# What is the largest prime factor of the given number?
 from math import sqrt, floor
 
 def isPrime(x):
@@ -15,7 +16,6 @@ def isPrime(x):
     return True
 
 
-# What is the largest prime factor of the given number?
 number = 600851475143   # the number to be tested
 limit = floor(sqrt(number))
 solution = 1
